@@ -1,3 +1,8 @@
+<html>
+ <head>
+  <title>PHP Test</title>
+ </head>
+ <body>
 <?php
 $name=$_POST['name'];
 $email=$_POST['name'];
@@ -9,3 +14,5 @@ mail($to,$subject, $message, "From: ". $name);
 echo "sent"
     
 ?>
+    </body>
+</html>
